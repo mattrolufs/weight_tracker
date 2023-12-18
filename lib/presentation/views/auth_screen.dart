@@ -23,16 +23,14 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
               body: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  ElevatedButton(
-                      onPressed: () {
-                        ref.read(authScreenViewModelProvider).signIn();
-                      },
-                      child: const Text("Sign In")),
-                  ElevatedButton(
-                      onPressed: () {
-                        ref.read(authScreenViewModelProvider).signOut();
-                      },
-                      child: const Text("Sign Out"))
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: ElevatedButton(
+                        onPressed: () {
+                          ref.read(authScreenViewModelProvider).signIn();
+                        },
+                        child: const Text("Sign In")),
+                  ),
                 ],
               ));
         } else {
