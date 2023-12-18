@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1002128791685",
+    "project_id": "weight-tracker-42dc0",
+    "storage_bucket": "weight-tracker-42dc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002128791685:android:b3afbb32ce129c5181f1ec",
+        "android_client_info": {
+          "package_name": "com.rolufs.weight_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDwO7KiNZvi_-W7vkXRMCaujZHjGM9Z0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
